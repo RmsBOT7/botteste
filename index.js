@@ -307,17 +307,16 @@ async function starts() {
 					}
 					break
 				case 'gtts':
-					if (args.length < 1) return client.sendMessage(from, 'Qual o código de idioma, cara?', text, {quoted: mek})
+					if (args.length < 1) return client.sendMessage(from, 'Kode bahasanya mana om?', text, {quoted: mek})
 					const gtts = require('./lib/gtts')(args[0])
-					if (args.length < 2) return client.sendMessage(from, 'Cadê o texto tio', text, {quoted: mek})
+					if (args.length < 2) return client.sendMessage(from, 'Textnya mana om', text, {quoted: mek})
 					dtt = body.slice(9)
 					ranm = getRandom('.mp3')
-					rano = getRandom('.ogg')
 					dtt.length > 600
-					? reply('A maior parte do texto é merda tio')
+					? reply('Textnya kebanyakan om')
 					: gtts.save(ranm, dtt, function() {
 						client.sendMessage(from, fs.readFileSync(ranm), audio, {quoted: mek, mimetype: 'audio/mp4', ptt:true})
-						fs.unlinkSync(rano)
+						fs.unlinkSync(ranm)
 					})
 					break
 				case 'meme':
