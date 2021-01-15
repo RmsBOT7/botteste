@@ -319,6 +319,11 @@ async function starts() {
 						fs.unlinkSync(ranm)
 					})
 					break
+					case 'persengay':
+					gatauda = body.slice(11)
+					anu = await fetchJson(`https://arugaz.herokuapp.com/api/howbucins`, {method: 'get'})
+					reply(anu.desc+anu.persen)
+					break	
 				case 'meme':
 					meme = await kagApi.memes()
 					buffer = await getBuffer(`https://imgur.com/${meme.hash}.jpg`)
