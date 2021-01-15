@@ -15,17 +15,9 @@ const help = (prefix) => {
 ➸ Comando : *.sticker* ou *.stiker*
 ➸ útil em : converter imagem/gif/vídeo em adesivo
 ➸ uso : responder imagem/gif/video ou enviar imagem/gif/video com legenda
-
-➸ Comando : *.sticker nobg* ou *.stiker nobg*
-➸ útil em : converter imagem em adesivo removendo o fundo
-➸ uso : responder imagem ou enviar imagem com legenda/n
 ➸ Comando : *.toimg*
 ➸ útil em : converter adesivo em imagem
 ➸ uso : adesivo de resposta
-
-➸ Comando : *.tsticker* ou *.tstiker*
-➸ útil em : converter texto em adesivo
-➸ uso : *.tsticker seu texto aqui*
 
 
        • ─── ✾ ─── •
