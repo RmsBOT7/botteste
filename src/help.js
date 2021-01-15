@@ -23,7 +23,9 @@ const help = (prefix) => {
        • ─── ✾ ─── •
          *GRUPO* 🤖
        • ─── ✾ ─── •
-      
+➸ Comando : *${prefix}gtts*
+➸ útil em : converter texto em fala/áudio
+➸ uso : *${prefix}gtts [cc] [text]*\nexemplo : *${prefix}gtts pt oi tudo bem*\n
 ➸ Comando : *.linkgroup*
 ➸ útil em : enviar o link do grupo
 ➸ uso : basta enviar o comando
