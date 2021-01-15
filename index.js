@@ -582,7 +582,7 @@ async function starts() {
 					reply('Excluido todos os chats com sucesso :)')
 					break
 				case 'ts':
-					if (!isOwner) return reply('Quem é você lek?')
+					if (!isOwner) return reply('Quem é vc meu patrão?')
 					if (args.length < 1) return reply('.......')
 					anu = await client.chats.all()
 					if (isMedia && !mek.message.videoMessage || isQuotedImage) {
