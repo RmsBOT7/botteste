@@ -40,7 +40,7 @@ const help = (prefix) => {
 ➸ uso : *.add 5585xxxxx*
 
 ➸ Nota : o bot precisa ser admin!
-
+➸ Comando : *.lista adms do grupo*
 ➸ Comando : *.kick*
 ➸ útil em : remover membros do grupo
 ➸ uso : *.kick e o @da pessoa*
