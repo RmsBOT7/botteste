@@ -179,13 +179,6 @@ async function starts() {
 				case 'menu1':
 					client.sendMessage(from, help1(prefix), text)
 					break
-				case 'info':
-					me = client.user
-					uptime = process.uptime()
-					teks = `*Nome do bot* : ${me.name}\n*Número do bot* : @${me.jid.split('@')[0]}\n*Prefix* : ${prefix}\n*Contato de bloqueio total* : ${blocked.length}\n*O bot está ativo em* : ${kyun(uptime)}`
-					buffer = await getBuffer(me.imgUrl)
-					client.sendMessage(from, buffer, image, {caption: teks, contextInfo:{mentionedJid: [me.jid]}})
-					break
 				case 'blocklist':
 					teks = 'Esta é a lista de números bloqueados :\n'
 					for (let block of blocked) {
