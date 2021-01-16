@@ -25,18 +25,6 @@ const loli = new lolis()
 const welkom = JSON.parse(fs.readFileSync('./src/welkom.json'))
 const nsfw = JSON.parse(fs.readFileSync('./src/nsfw.json'))
 const samih = JSON.parse(fs.readFileSync('./src/simi.json'))
-const {
-    info,
-    corona,
-    lirik,
-    nulis,
-    ytdl,
-    zodiak,
-    fb,
-    covidcountry,
-    gay,
-    ytmp3,
-} = require('./lib')
 prefix = '.'
 blocked = []
 
