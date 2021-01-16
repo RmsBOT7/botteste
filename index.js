@@ -332,7 +332,7 @@ async function starts() {
 				case 'porno':
 					memein = await kagApi.memeindo()
 					buffer = await getBuffer(`https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx3BgnL2qAHDTlfCPMAvdjuLGvOx402dSdhw&usqp=CAU`)
-					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'Adm proibiu porno no gp🙄'})
+					client.sendMessage(from, buffer, image, {quoted: mek, caption: 'O Guilherme proibiu isso no grupo🙄'})
 					break
 				case 'dono':
 					memein = await kagApi.memeindo()
